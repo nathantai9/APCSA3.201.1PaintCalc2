@@ -43,4 +43,3 @@ public class Test_U03aPaintCalc2 {
             assertEquals("If quarts are available = 1 gallon", result3);
         }
     }
-    
