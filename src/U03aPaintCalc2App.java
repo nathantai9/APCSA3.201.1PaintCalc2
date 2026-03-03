@@ -80,22 +80,22 @@ public class U03aPaintCalc2App {
         System.out.println("Enter the room dimensions below");
         System.out.print("Length (for example, 12.5): ");
         // DONE collect the user input as a double
-        input.nextDouble();
+        double length = input.nextDouble();
         System.out.print("Width: ");
         // DONE
-        input.nextDouble();
+        double width = input.nextDouble();
         System.out.print("Height: ");
         // DONE
-        input.nextDouble();
+        double height = input.nextDouble();
         System.out.print("How many doors does the room have: ");
         // DONE collect the user input as an int
-        input.nextInt();
+        int doors = input.nextInt();
         System.out.print("How many windows does the room have: ");
         // DONE
-        input.nextInt();
+        int windows = input.nextInt();
         System.out.println("Total square feet =");
         // DONE use calculateTotalSquareFeet to get the result
-        double totalSqFeet = calculateTotalSquareFeet(10.5, 25.6, 10.7, 1, 2);
+        double totalSqFeet = calculateTotalSquareFeet(length, width, height, doors, windows);
         System.out.println(totalSqFeet);
         System.out.println("If gallons only =");
         // DONE use calculateIfGallonsOnly to get the result
